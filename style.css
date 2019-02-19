@@ -4,6 +4,8 @@
     box-sizing:content-box;
     font-family: 'Source Sans Pro', sans-serif;
     font-size:110%;
+    text-decoration: none;
+    color:#fff;
     
 }
 title{
@@ -21,17 +23,24 @@ body{
     background-color: #002b2c;
     position:relative;
 }
-.hypercars-title{
+.title{
+    margin-left:10%;
+    margin-right:10%;
+}
+.hypercars-title,.hypercars-title-one{
     height:8vh;
     width:100%;
     margin-top:15px;
     cursor: pointer;
-    
 }
-.hypercars-title:hover {
+
+
+.hypercars-title:hover,.hypercars-title-one:hover {
     opacity:0.7;
-    transition:opacity 0.4s;
-    
+    transition:opacity 0.4s;    
+}
+.hypercars-title-one{
+    display:none;
 }
 .line{
     content:'';
@@ -81,7 +90,7 @@ body{
     content:'';
     width:100%;
     height:1px;
-    margin-top:30px;
+    transform:translate(0, -5px);
     
     background-color: white;
     
@@ -95,8 +104,31 @@ body{
 .facebook,.instagram{
     color:#fff;
 }
-.title{
-    margin-left:10%;
-    margin-right:10%;
+
+.full-menu{
+    position:absolute;
+    top:1.5vh;
+    right:0;
+    display:none;
+    font-size:80%;
+    margin-right:10px;
+}
+.full-menu li{
+    display:inline-block;
+    color:#fff;
+    height:4vh;
+    margin-left:10px;
+    
+}
+.full-menu li a:hover{
+    color:rgb(131, 130, 130);
+    transition: 0.2s color; 
+}
+.full-menu .facebook, .full-menu .instagram{
+    transform: translate(0, 4px)
+}
+.facebook:hover,.instagram:hover{
+    color:rgb(131, 130, 130);
+    transition: 0.2s color; 
 }
 /*#003233,#13A1D1*/
