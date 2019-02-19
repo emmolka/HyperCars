@@ -1,0 +1,42 @@
+@media (min-width:320px) {
+
+}
+@media (min-width:480px) {
+    .mustang{
+        height:35vh;
+    }
+ }
+@media (min-width:600px) {
+.mustang{
+    height:45vh;
+}
+ }
+@media (min-width:801px) {
+    .title{
+        margin-left:20%;
+        margin-right:20%;
+    }
+    .mustang{
+        height:55vh;
+    }
+  
+ }
+@media (min-width:1025px) {
+    .menu{
+        display:none;
+    }
+    .title{
+        margin:0;
+    }
+    .hypercars-title{
+        width:25vw;
+    }
+    body{
+        
+    }
+
+
+ }
+@media (min-width:1281px) {
+
+ }

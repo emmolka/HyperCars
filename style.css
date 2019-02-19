@@ -2,6 +2,8 @@
     margin:0;
     padding:0;
     box-sizing:content-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:110%;
     
 }
 title{
@@ -11,35 +13,90 @@ body{
     height:100%;
     width:100%;
     display:block;
+    background-color: #003233;
 }
 .header{
-    height:100px;
+    height:160px;
     width:100%;
-    background-color: #003233;
+    background-color: #002b2c;
     position:relative;
+}
+.hypercars-title{
+    height:8vh;
+    width:100%;
+    margin-top:15px;
+    cursor: pointer;
+    
+}
+.hypercars-title:hover {
+    opacity:0.7;
+    transition:opacity 0.4s;
+    
+}
+.line{
+    content:'';
+    width:100%;
+    height:1px;
+    position:absolute;
+    top:11vh;
+    
+    background-color: white;
+    
 }
 .menu{
     position:absolute;
-    right:0;
-    top:20%;
+    left:50%;
+    transform:translate(-50%,0);
+    bottom:7px;
     margin-top:5px;
     margin-right:5px;
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
     color:white;
     cursor: pointer;
 
 }
-.ulMenu{
-    
+.ul-menu{
     background-color: #003233;
     
+   
 }
-.ulMenu li{
+.ul-menu li{
     text-align:center;
     color:#fff;
     border:1px solid #fff;
+    
+}
+.under-header{
+    display:block;
+    
+}
+.mustang{
+    width:100vw;
+    height:25vh;
 }
 
 
+.under-line{
+    content:'';
+    width:100%;
+    height:1px;
+    margin-top:30px;
+    
+    background-color: white;
+    
+}
+.icon{
+    margin-top:20px;
+    text-align: center;
+    
+
+}
+.facebook,.instagram{
+    color:#fff;
+}
+.title{
+    margin-left:10%;
+    margin-right:10%;
+}
 /*#003233,#13A1D1*/
