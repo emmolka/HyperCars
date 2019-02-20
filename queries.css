@@ -1,28 +1,50 @@
 @media (min-width:320px) {
-
+    .title{
+        padding-left:15%;
+        padding-right:15%;
+    }
+    .header{
+        height:120px;
+    }
+    .kontakt-text{
+        margin-left:10%;
+        
+    }
 }
 @media (min-width:480px) {
-    .mustang{
-        height:40vh;
+    .header{
+        height:140px;
     }
  }
 @media (min-width:600px) {
-.mustang{
-    height:45vh;
-}
+
 .title{
     padding-left:15%;
     padding-right:15%;
 }
+.header{
+    height:150px;
+}
+.kontakt-text{
+    margin-left:25%;
+    
+}
+
  }
 @media (min-width:801px) {
     .title{
         margin-left:17%;
         margin-right:17%;
     }
-    .mustang{
-        height:55vh;
+    .AOtext{
+        margin-left:20%;
+        margin-right:20%;
     }
+    .kontakt-text{
+        margin-left:27%;
+        margin-right:20%;
+    }
+   
     
   
  }
@@ -44,7 +66,7 @@
         height:60px;
     }
     .line{
-        top:6vh;
+        
     }
     .title{
         margin:0;
@@ -60,17 +82,45 @@
         top:0;
         left:0;
     }
-    .mustang{
-        height:80vh;
-    }
+    
     .full-menu{
         display:block;
     }
+    p{
+        display:block;
+    }
+    .kontakt-text{
+        margin-left:25%;
+        margin-right:20%;
+    }
  }
 @media (min-width:1281px) {
+    .menu{
+        display:none;
+    }
+    .rolled-menu{
+        display:none;
+    }
+    .title{
+        margin:0;
+    }
+    .hypercars-title{
+        display:none;
+
+    }
+    .header{
+        height:60px;
+    }
+    .line{
+        
+    }
+    .title{
+        margin:0;
+        
+    }
     .hypercars-title-one{
         display:block;
-        width:20vw;
+        width:30vw;
         height:6vh;
        
         margin:0;
@@ -78,10 +128,83 @@
         top:0;
         left:0;
     }
+    
+    .full-menu{
+        display:block;
+    }
+    p{
+        display:block;
+    }
+    .kontakt-text{
+        margin-left:30%;
+        margin-right:20%;
+    }
+ }
+
+@media (min-width:1475px){
+    .hypercars-title-one{
+        display:block;
+        width:20vw;
+        
+       
+        margin:0;
+        position:absolute;
+        top:0;
+        left:0;
+    }
     .mustang{
-        height:87vh;
+        display:none;
     }
     .full-menu li{
     margin-left:30px;
     }
+    body{
+        background-image: url('mustang3.jpg');
+       
+        background-position-x: 100vw;
+        background-position-y: 100vh;
+        background-size: 100vw;
+        
+        
+    }
+    .line{
+        position: absolute;
+        bottom:0;
+    }
+    .under-line{
+        position:absolute;
+        bottom:4vh;
+
+
+    }
+    .icon{
+        position:absolute;
+        bottom:1vh;
+        left:50%;
+        transform: translate(-50%,0);
+
+    }
+    p{
+        display:block;
+    }
+    .AOtext,.kontakt-text{
+        background-color: rgba(22, 22, 22, 0.8);
+        margin-top:100px;
+        padding:5px;
+        border:2px solid white;
+        border-radius:10px;
+    }
+    h1{
+        
+        padding:5px;
+        border:2px solid white;
+        border-radius:10px;
+        width:100px;
+        position:absolute;
+        top:75px;
+        left:50%;
+        transform:translateX(-50%)
+        
+    }
+    
 }

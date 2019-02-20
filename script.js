@@ -1,16 +1,16 @@
 function addMenu(){
-    let a = document.createElement('ul');
+    const a = document.createElement('ul');
     a.classList.add('ul-menu');
     document.querySelector('.rolled-menu').appendChild(a);
-    let b = document.createElement('li');
-    b.innerHTML='Strona glowna';
-    let c = document.createElement('li');
-    c.innerHTML='O nas';
-    let d = document.createElement('li');
+    const b = document.createElement('li');
+    b.innerHTML='<a href="index.html">Strona glowna</a>';
+    const c = document.createElement('li');
+    c.innerHTML='<a href="aboutus.html">O nas</a>';
+    const d = document.createElement('li');
     d.innerHTML='Oferta';
-    let e = document.createElement('li');
+    const e = document.createElement('li');
     e.innerHTML='Samochody';
-    let f = document.createElement('li');
+    const f = document.createElement('li');
     f.innerHTML='Kontakt';
     a.animate({
         opacity: [ 0, 0.9, 1 ],       
@@ -26,7 +26,7 @@ function addMenu(){
     document.querySelector('.ul-menu').appendChild(f);
 }
 function removeMenu(){
-    let a = document.querySelector('.ul-menu');
+    const a = document.querySelector('.ul-menu');
     a.remove('ul');
     
 }
@@ -39,6 +39,16 @@ document.querySelector('.menu').addEventListener('click', function(){
     }
     
     
-});
+},{passive: true});
+document.querySelector('.menu').addEventListener('touch', function(){
+    const check = document.querySelector('.ul-menu');
+    if(check){
+        removeMenu();
+    }else{
+        addMenu();
+    }
+    
+    
+},{passive: true});
 
 

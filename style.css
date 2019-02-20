@@ -6,6 +6,7 @@
     font-size:110%;
     text-decoration: none;
     color:#fff;
+    overflow-x: hidden;
     
 }
 title{
@@ -16,11 +17,14 @@ body{
     width:100%;
     display:block;
     background-color: #003233;
+    background-position: center center; 
+    background-size:cover;
+
 }
 .header{
-    height:160px;
+    height:150px;
     width:100%;
-    background-color: #002b2c;
+    background-color: #002b2c98;
     position:relative;
 }
 .title{
@@ -28,7 +32,6 @@ body{
     margin-right:10%;
 }
 .hypercars-title,.hypercars-title-one{
-    height:8vh;
     width:100%;
     margin-top:15px;
     cursor: pointer;
@@ -46,9 +49,6 @@ body{
     content:'';
     width:100%;
     height:1px;
-    position:absolute;
-    top:11vh;
-    
     background-color: white;
     
 }
@@ -56,7 +56,6 @@ body{
     position:absolute;
     left:50%;
     transform:translate(-50%,0);
-    bottom:7px;
     margin-top:5px;
     margin-right:5px;
     width:40px;
@@ -82,7 +81,6 @@ body{
 }
 .mustang{
     width:100vw;
-    height:25vh;
 }
 
 
@@ -116,19 +114,42 @@ body{
 .full-menu li{
     display:inline-block;
     color:#fff;
-    height:4vh;
+    height:40px;
     margin-left:10px;
     
 }
 .full-menu li a:hover{
     color:rgb(131, 130, 130);
-    transition: 0.2s color; 
+    transition: 0.3s color; 
 }
 .full-menu .facebook, .full-menu .instagram{
     transform: translate(0, 4px)
 }
 .facebook:hover,.instagram:hover{
     color:rgb(131, 130, 130);
-    transition: 0.2s color; 
+    transition: 0.3s color; 
 }
+p{
+    position:absolute;
+    right:0;
+    bottom:25%;
+    font-size:400%;
+    display:none;
+}
+/*ABOUT US PAGE*/
+h1{
+    text-align: center;
+}
+.AOtext{
+    margin: 20px;
+    text-align: justify;
+    word-spacing: 1px;
+    
+}
+/*Kontakt tekst*/
+.kontakt-text{
+   margin-left:12%;
+}
+
+
 /*#003233,#13A1D1*/
