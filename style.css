@@ -110,11 +110,11 @@ body{
     display:none;
     font-size:80%;
     margin-right:10px;
+    height:40px;
 }
 .full-menu li{
     display:inline-block;
     color:#fff;
-    height:40px;
     margin-left:10px;
     
 }
@@ -137,19 +137,44 @@ p{
     display:none;
 }
 /*ABOUT US PAGE*/
-h1{
+
+h1 {
+    text-align: center;
+    
+    font-size:150%;
+    
+    
+}
+
+h2{
     text-align: center;
 }
-.AOtext{
+.AOtext {
     margin: 20px;
     text-align: justify;
-    word-spacing: 1px;
-    
+    word-spacing: 1px;   
 }
 /*Kontakt tekst*/
 .kontakt-text{
    margin-left:12%;
+   margin: 20px;
 }
+
+
+/*cars*/
+
+.offert-text{
+    margin-left:12%;
+   margin: 20px;
+}
+.offert-text a:hover{
+    color:rgb(131, 130, 130);
+    transition: 0.3s color; 
+}
+
+
+
+
 
 
 /*#003233,#13A1D1*/

@@ -7,11 +7,11 @@ function addMenu(){
     const c = document.createElement('li');
     c.innerHTML='<a href="aboutus.html">O nas</a>';
     const d = document.createElement('li');
-    d.innerHTML='Oferta';
+    d.innerHTML='<a href="offert.html">Oferta</a>';
     const e = document.createElement('li');
-    e.innerHTML='Samochody';
+    e.innerHTML='<a href="cars.html">Samochody</a>';
     const f = document.createElement('li');
-    f.innerHTML='Kontakt';
+    f.innerHTML='<a href="contact.html">Kontakt</a>';
     a.animate({
         opacity: [ 0, 0.9, 1 ],       
         offset: [ 0, 0.8 ],
@@ -31,7 +31,7 @@ function removeMenu(){
     
 }
 document.querySelector('.menu').addEventListener('click', function(){
-    let check = document.querySelector('.ul-menu');
+    const check = document.querySelector('.ul-menu');
     if(check){
         removeMenu();
     }else{
